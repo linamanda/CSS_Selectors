@@ -1,0 +1,90 @@
+body, html {
+  margin: 0;
+  padding: 0px;
+}
+.navPanel {
+  font-family: Arial;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #262626;
+  padding: 1% 0 1% 0;
+}
+
+.navLink {
+  padding: 0 3vw 0 3vw;
+  color: white;
+}
+
+.navPanel > a:last-child {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.pageTitle {
+  background-image: url("titleBackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pageTitle > h1 {
+  color: white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 8em;
+  padding: 20vh 0 20vh 0;
+  margin: 0;
+}
+
+.mainContent {
+  font-family: Arial;
+  font-size: 1.4em;
+  line-height: 1.5em;
+  margin: 5vw;
+}
+
+p > span:first-of-type {
+  font-weight: bold;
+}
+
+span:not(span:first-of-type) {
+  font-style: italic;
+}
+
+img {
+  width: 20vw;
+  border: 2px solid black;
+  box-shadow: 0.2em 0.2em;
+}
+
+.contentImgs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+
+.imgCaption {
+  font-size: 0.7em;
+  text-align: center;
+  font-style: italic;
+}
+
+.endFooter {
+  background-color: #262626;
+  padding: 3vh 0 1vh 0;
+  margin-bottom: 0;
+}
+
+.endFooter > p {
+  color: white;
+  text-align: right;
+  font-family: Arial;
+  font-size: 0.5em;
+  margin-right: 3vw;
+}

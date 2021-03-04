@@ -38,6 +38,7 @@ a {
   font-size: 8em;
   padding: 20vh 0 20vh 0;
   margin: 0;
+  letter-spacing: 1vw;
 }
 
 .mainContent {
@@ -47,7 +48,7 @@ a {
   margin: 5vw;
 }
 
-p > span:first-of-type {
+p::first-letter {
   font-weight: bold;
 }
 
